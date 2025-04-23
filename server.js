@@ -14,7 +14,7 @@ dotenv.config();
 // app.use(cors());
 app.use(
     cors({
-      origin: "https://ecommerce-iota-blue.vercel.app/",
+      origin: "https://ecommerce-iota-blue.vercel.app",
       // origin: "http://localhost:5173",
       credentials: true,
       allowedHeaders: ["Content-Type", "Authorization", "auth-token"],
